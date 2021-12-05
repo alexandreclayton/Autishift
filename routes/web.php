@@ -20,6 +20,21 @@ Route::get('/blog', function () {
     return view('blog');
 });
 
+Route::get('/cursos', function () {
+    return view('cursos');
+});
+Route::get('/depoimentos', function () {
+    return view('depoimentos');
+});
+
+Route::get('/post', function () {
+    return view('post');
+});
+
+
+
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

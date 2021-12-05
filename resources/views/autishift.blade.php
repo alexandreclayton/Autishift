@@ -61,13 +61,14 @@
 </div>
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
-      <a href="index.html" class="logo me-auto"><img src="img/autishift.png" alt=""></a>
+      <a href="{{ url('/') }}" class="logo me-auto"><img src="img/autishift.png" alt=""></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
-          <li><a class="nav-link scrollto" href="{{ url('/blog') }}">Blog</a></li>
+          <li><a class="nav-link scrollto" href="{{ url('/depoimentos') }}">Blog</a></li>
+          <li><a class="nav-link scrollto" href="{{ url('/cursos') }}">Cursos</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
