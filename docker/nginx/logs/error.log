@@ -1,0 +1,57 @@
+2021/12/05 23:43:01 [crit] 1#1: pread() "/etc/nginx/conf.d/vhost.conf" failed (21: Is a directory)
+2021/12/05 23:53:21 [crit] 1#1: pread() "/etc/nginx/conf.d/vhost.conf" failed (21: Is a directory)
+2021/12/06 00:28:26 [crit] 1#1: pread() "/etc/nginx/conf.d/vhost.conf" failed (21: Is a directory)
+2021/12/06 00:28:47 [crit] 1#1: pread() "/etc/nginx/conf.d/vhost.conf" failed (21: Is a directory)
+2021/12/06 00:31:34 [crit] 1#1: pread() "/etc/nginx/conf.d/vhost.conf" failed (21: Is a directory)
+2021/12/06 00:31:45 [crit] 1#1: pread() "/etc/nginx/conf.d/vhost.conf" failed (21: Is a directory)
+2021/12/06 00:32:00 [crit] 1#1: pread() "/etc/nginx/conf.d/vhost.conf" failed (21: Is a directory)
+2021/12/06 00:36:22 [notice] 1#1: using the "epoll" event method
+2021/12/06 00:36:22 [notice] 1#1: nginx/1.20.1
+2021/12/06 00:36:22 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/12/06 00:36:22 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2021/12/06 00:36:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/06 00:36:22 [notice] 1#1: start worker processes
+2021/12/06 00:36:22 [notice] 1#1: start worker process 34
+2021/12/06 00:36:22 [notice] 1#1: start worker process 35
+2021/12/06 00:50:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/06 00:50:02 [notice] 34#34: gracefully shutting down
+2021/12/06 00:50:02 [notice] 34#34: exiting
+2021/12/06 00:50:02 [notice] 35#35: gracefully shutting down
+2021/12/06 00:50:02 [notice] 34#34: exit
+2021/12/06 00:50:02 [notice] 35#35: exiting
+2021/12/06 00:50:02 [notice] 35#35: exit
+2021/12/06 00:50:02 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/06 00:50:02 [notice] 1#1: worker process 34 exited with code 0
+2021/12/06 00:50:02 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/06 00:50:02 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/12/06 00:50:02 [notice] 1#1: worker process 35 exited with code 0
+2021/12/06 00:50:02 [notice] 1#1: exit
+2021/12/06 00:50:09 [notice] 1#1: using the "epoll" event method
+2021/12/06 00:50:09 [notice] 1#1: nginx/1.20.1
+2021/12/06 00:50:09 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/12/06 00:50:09 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2021/12/06 00:50:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/06 00:50:09 [notice] 1#1: start worker processes
+2021/12/06 00:50:09 [notice] 1#1: start worker process 26
+2021/12/06 00:50:09 [notice] 1#1: start worker process 27
+2021/12/06 01:08:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/06 01:08:56 [notice] 26#26: gracefully shutting down
+2021/12/06 01:08:56 [notice] 27#27: gracefully shutting down
+2021/12/06 01:08:56 [notice] 26#26: exiting
+2021/12/06 01:08:56 [notice] 27#27: exiting
+2021/12/06 01:08:56 [notice] 26#26: exit
+2021/12/06 01:08:56 [notice] 27#27: exit
+2021/12/06 01:08:56 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/12/06 01:08:56 [notice] 1#1: worker process 26 exited with code 0
+2021/12/06 01:08:56 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/06 01:08:56 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2021/12/06 01:08:56 [notice] 1#1: worker process 27 exited with code 0
+2021/12/06 01:08:56 [notice] 1#1: exit
+2021/12/06 01:13:00 [notice] 1#1: using the "epoll" event method
+2021/12/06 01:13:00 [notice] 1#1: nginx/1.20.1
+2021/12/06 01:13:00 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/12/06 01:13:00 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2021/12/06 01:13:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/06 01:13:00 [notice] 1#1: start worker processes
+2021/12/06 01:13:00 [notice] 1#1: start worker process 32
+2021/12/06 01:13:00 [notice] 1#1: start worker process 33

@@ -1,0 +1,43 @@
+version: "3.2"
+services:
+  database:
+    image: mysql:5.7
+    ports:
+      - "3308:3306"
+    volumes:
+      #- ./docker/mysql/vhost.conf:/etc/nginx/conf.d/vhost.conf
+      - type: bind
+        source: ./docker/mysql/databases/
+        target: /var/lib/mysql_databases
+    environment:
+      MYSQL_ROOT_PASSWORD: "root"
+      MYSQL_DATABASE: "db_auti"
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      PMA_HOST: database
+      PMA_PORT: 3306
+      PMA_USER: "root"
+      PMA_PASSWORD: "root"
+    ports:
+      - "16001:80"
+
+  app:
+    build: .
+    #user: 1000:1000
+    working_dir: /var/www/html
+    volumes:
+      - .:/var/www/html
+
+  nginx:
+    image: nginx:1.20.1-alpine
+    volumes:
+      - ./docker/nginx/vhost.conf:/etc/nginx/conf.d/vhost.conf
+      - ./docker/nginx/logs:/var/log/nginx/
+      - .:/var/www/html
+    working_dir: /var/www/html
+    ports:
+      - 16000:15000
+    depends_on:
+      - app
